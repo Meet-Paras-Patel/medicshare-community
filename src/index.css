@@ -8,33 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* MedicShelf Design System - Medical Green & Accent Yellow */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 123 46% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 123 46% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 123 46% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Medical Green */
+    --primary: 123 46% 32%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 123 46% 28%;
+    --primary-light: 123 46% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Light Grey */
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 123 46% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 123 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Yellow */
+    --accent: 45 100% 51%;
+    --accent-foreground: 123 46% 15%;
+    --accent-hover: 45 100% 45%;
+    --accent-light: 45 100% 90%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 123 46% 32%;
+
+    /* Custom MedicShelf gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(123 46% 32%), hsl(123 46% 28%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 100% 51%), hsl(45 100% 45%));
+    --gradient-soft: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 98%));
+    
+    /* Shadows */
+    --shadow-soft: 0 2px 8px hsl(123 46% 32% / 0.1);
+    --shadow-medium: 0 4px 16px hsl(123 46% 32% / 0.15);
+    --shadow-strong: 0 8px 32px hsl(123 46% 32% / 0.2);
 
     --radius: 0.5rem;
 
